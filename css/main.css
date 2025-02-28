@@ -1,0 +1,131 @@
+.box-pink {
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  background-color: hsl(330, 100%, 98%);
+}
+.box-pink .title {
+  font-weight: 700;
+  font-size: 19px;
+  margin-bottom: 13px;
+  color: hsl(332, 51%, 32%);
+}
+.box-pink .list-time {
+  margin-inline-start: 20px;
+}
+.box-pink .list-time li {
+  padding-inline-start: 15px;
+  font-size: 14px;
+  font-weight: 400;
+  color: hsl(30, 10%, 34%);
+}
+.box-pink .list-time li span {
+  font-weight: 700;
+  color: hsl(30, 10%, 34%);
+}
+.box-pink .list-time li::marker {
+  color: hsl(14, 45%, 36%);
+  font-size: 0.6em;
+}
+.box-pink .list-time li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.box-ul {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  margin-bottom: 25px;
+}
+.box-ul .title {
+  font-weight: 400;
+  font-size: 27px;
+  margin-bottom: 19px;
+  font-family: "Young Serif", serif;
+  color: hsl(14, 45%, 36%);
+}
+.box-ul .list-time {
+  margin-inline-start: 20px;
+  margin-bottom: 35px;
+}
+.box-ul .list-time li {
+  padding-inline-start: 15px;
+  font-size: 15px;
+  color: hsl(30, 10%, 34%);
+}
+.box-ul .list-time li span {
+  font-weight: 700;
+  color: hsl(30, 10%, 34%);
+}
+.box-ul .list-time li::marker {
+  color: hsl(14, 45%, 36%);
+  font-size: 0.6em;
+}
+.box-ul .list-time li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Outfit", serif;
+  font-size: 16px;
+  background-color: hsl(30, 54%, 90%);
+}
+
+.list-border {
+  flex-grow: 1;
+  list-style: none;
+  margin: 0;
+}
+.list-border li {
+  font-size: 15px;
+  color: hsl(30, 10%, 34%);
+}
+.list-border li span {
+  font-weight: 700;
+  color: hsl(14, 45%, 36%);
+}
+.list-border li:not(:last-child) {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.box-recipe {
+  width: 650px;
+  max-width: 100%;
+  margin: 30px;
+  padding: 28px;
+  border-radius: 15px;
+  background-color: hsl(0, 0%, 100%);
+}
+.box-recipe .img-holder {
+  height: 250px;
+  margin-bottom: 30px;
+}
+.box-recipe .img-holder img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.box-recipe .name {
+  margin-bottom: 12px;
+  font-family: "Young Serif", serif;
+  font-size: 35px;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: hsl(24, 5%, 18%);
+}
+.box-recipe .des {
+  margin-bottom: 25px;
+  font-weight: 400;
+  font-size: 14px;
+  color: hsl(30, 10%, 34%);
+}/*# sourceMappingURL=main.css.map */

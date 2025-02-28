@@ -1,0 +1,30 @@
+.box-recipe {
+  width: 650px;
+  max-width: 100%;
+  margin: 30px;
+  padding: 28px;
+  border-radius: 15px;
+  background-color: $White;
+  .img-holder {
+    height: 250px;
+    margin-bottom: 30px;
+    img {
+      @include full-w-h;
+      border-radius: 10px;
+    }
+  }
+  .name {
+    margin-bottom: 12px;
+    font-family: "Young Serif", serif;
+    font-size: 35px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: $dark-gray;
+  }
+  .des {
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 14px;
+    color: $gray;
+  }
+}
